@@ -1,0 +1,21 @@
+.square {
+    flex: 1;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s ease;
+  }
+  
+  .black {
+    background-color: #444;
+  }
+  
+  .white {
+    background-color: #eee;
+  }
+  
+  .square:hover {
+    filter: brightness(1.2);
+  }
+  
